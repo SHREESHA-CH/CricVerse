@@ -1,0 +1,110 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:left;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('C:/Users/user/Desktop/projects/cricket llm/final project/frontend/src/chatbot/BBG.jpg');
+  background-size: cover;
+}
+h1{
+  color: #e26b82;
+  font-family:cursive;
+}
+
+.chatbox {
+  width: 50%;
+  height: 70%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url('C:/Users/user/Desktop/projects/cricket llm/final project/frontend/src/chatbot/ChatbotBG.jpg');
+  background-size: cover;
+  padding: 10px;
+}                        
+/* .chatbox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('C:/Users/Sai kumar/OneDrive/Desktop/RAG/cricket-chatbot/src/Chatbot/ChatbotBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2; 
+  z-index: -1; 
+  border-radius: 10px;
+}  */
+
+.chat-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.chat-message.user {
+  background-color: #7cd3e5;
+  align-self: flex-end;
+  border: 3px solid #45cfeb;
+}
+
+.chat-message.bot {
+  background-color: #f398aa;
+  align-self: flex-start;
+  border: 3px solid #f5768f;
+}
+
+.bot-symbol {
+  margin-right: 5px;
+}
+
+.input-box {
+  display: flex;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 15px;
+  border: 3px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  background-color: #e8e4e4;
+}
+
+.input-box button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: 3px solid #0056b3;
+}
+
+.input-box button:hover {
+  background-color: #0056b3;
+}
+
+.input-box input:hover{
+  background-color: #ccc;
+}
+
+.Suggestions {
+  margin-bottom: 10px;
+}
+
+.Suggestions p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.Suggestions p:hover {
+  text-decoration: underline;
+}
